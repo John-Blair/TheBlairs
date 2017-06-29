@@ -66,7 +66,44 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="packages.config" />
+    <Content Include="css\timeline\style.css" />
+    <Content Include="media\timeline\cd-icon-location.svg" />
+    <Content Include="media\timeline\cd-icon-movie.svg" />
+    <Content Include="media\timeline\cd-icon-picture.svg" />
+    <Content Include="Scripts\timeline\main.js" />
+    <Content Include="Scripts\timeline\modernizr.js" />
+    <Content Include="TheBlairs.html" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="css\bootstrap_overrides.css" />
+    <Content Include="css\scrollingnav\scrolling-nav.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="media\apple-touch-icon..png" />
+    <Content Include="media\Close-small_hover_12x12px.png" />
+    <Content Include="media\Close-small_normal_12x12px.png" />
+    <Content Include="media\Facebook_hover_32x32px.png" />
+    <Content Include="media\Facebook_normal_32x32px.png" />
+    <Content Include="media\LinkedIn_hover_32x32px.png" />
+    <Content Include="media\LinkedIn_normal_32x32px.png" />
+    <Content Include="media\Print_hover_32x32px.png" />
+    <Content Include="media\Print_normal_32x32px.png" />
+    <Content Include="media\Twitter_hover_32x32px.png" />
+    <Content Include="media\Twitter_normal_32x32px.png" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Scripts\jquery-3.1.1.min.map" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -75,10 +112,41 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\document_ready.js" />
+    <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.1.1.js" />
+    <Content Include="Scripts\jquery-3.1.1.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
+    <Content Include="Scripts\jquery.plugin.js" />
+    <Content Include="Scripts\popupProvider.js" />
+    <Content Include="Scripts\revealingmodule.js" />
+    <Content Include="Scripts\scrollingnav\jquery.easing.min.js" />
+    <Content Include="Scripts\scrollingnav\scrolling-nav.js" />
+    <None Include="Scripts\_references.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="media\children\cara\" />
+    <Folder Include="media\children\claire\" />
+    <Folder Include="media\children\declan\" />
+    <Folder Include="media\children\zac\" />
+    <Folder Include="media\family\annie\" />
+    <Folder Include="media\family\cath\" />
+    <Folder Include="media\family\chris\" />
+    <Folder Include="media\family\john\" />
+    <Folder Include="media\family\mum\" />
+    <Folder Include="media\family\weebuck\" />
+    <Folder Include="media\gallery\" />
+    <Folder Include="media\mumfamily\barney\" />
+    <Folder Include="media\mumfamily\bridie\" />
+    <Folder Include="media\mumfamily\kate\" />
+    <Folder Include="media\mumfamily\peggy\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
