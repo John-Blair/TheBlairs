@@ -66,10 +66,15 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\nanogallery\font\ngy2_icon_font.svg" />
+    <Content Include="css\nanogallery\loading.gif" />
+    <Content Include="css\nanogallery\nanogallery2.min.css" />
+    <Content Include="css\nanogallery\nanogallery2_logo.png" />
     <Content Include="css\timeline\style.css" />
     <Content Include="media\timeline\cd-icon-location.svg" />
     <Content Include="media\timeline\cd-icon-movie.svg" />
     <Content Include="media\timeline\cd-icon-picture.svg" />
+    <Content Include="Scripts\nanogallery\jquery.nanogallery2.js" />
     <Content Include="Scripts\timeline\main.js" />
     <Content Include="Scripts\timeline\modernizr.js" />
     <Content Include="TheBlairs.html" />
@@ -104,6 +109,10 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="Scripts\jquery-3.1.1.min.map" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
+    <Content Include="css\nanogallery\font\ngy2_icon_font.eot" />
+    <Content Include="css\nanogallery\font\ngy2_icon_font.ttf" />
+    <Content Include="css\nanogallery\font\ngy2_icon_font.woff" />
+    <Content Include="css\nanogallery\font\ngy2_icon_font.woff2" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

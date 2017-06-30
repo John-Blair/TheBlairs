@@ -4,6 +4,7 @@
 /// <reference path="jquery.plugin.js" />
 /// <reference path="jquery-3.1.1.js" />
 /// <reference path="jquery-3.1.1.slim.js" />
+/// <reference path="nanogallery/jquery.nanogallery2.js" />
 /// <reference path="popupprovider.js" />
 /// <reference path="revealingmodule.js" />
 /// <reference path="scrollingnav/jquery.easing.min.js" />
