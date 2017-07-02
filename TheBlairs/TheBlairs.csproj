@@ -75,6 +75,7 @@
     <Content Include="media\timeline\cd-icon-movie.svg" />
     <Content Include="media\timeline\cd-icon-picture.svg" />
     <Content Include="Scripts\nanogallery\jquery.nanogallery2.js" />
+    <Content Include="Scripts\theblairs.js" />
     <Content Include="Scripts\timeline\main.js" />
     <Content Include="Scripts\timeline\modernizr.js" />
     <Content Include="TheBlairs.html" />

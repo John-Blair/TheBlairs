@@ -9,5 +9,6 @@
 /// <reference path="revealingmodule.js" />
 /// <reference path="scrollingnav/jquery.easing.min.js" />
 /// <reference path="scrollingnav/scrolling-nav.js" />
+/// <reference path="theblairs.js" />
 /// <reference path="timeline/main.js" />
 /// <reference path="timeline/modernizr.js" />
