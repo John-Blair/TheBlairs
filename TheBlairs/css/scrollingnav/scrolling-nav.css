@@ -38,7 +38,21 @@ of those sections to manage the look and feel of the site. */
     background: #fff;
 }
 
-.about-section {
+.our-history-section {
+    min-height: 100%;
+    padding-top: 91px;
+    text-align: center;
+    background: #eee;
+}
+
+.the-children-section {
+    min-height: 100%;
+    padding-top: 91px;
+    text-align: center;
+    background: #fff;
+}
+
+.the-mcgintys-section {
     min-height: 100%;
     padding-top: 91px;
     text-align: center;
@@ -49,28 +63,18 @@ of those sections to manage the look and feel of the site. */
     min-height: 100%;
     padding-top: 91px;
     text-align: center;
-    background: #eee;
-}
-
-
-.services-section {
-    height: 100%;
-    padding-top: 91px;
-    text-align: center;
     background: #fff;
 }
 
-
-.the-children-section {
-    min-height: 100%;
-    padding-top: 91px;
-    text-align: center;
-    background: #fff;
-}
 
 .contact-section {
     height: 100%;
     padding-top: 91px;
     text-align: center;
     background: #eee;
+}
+
+.panel-title a {
+
+    display:block;
 }
