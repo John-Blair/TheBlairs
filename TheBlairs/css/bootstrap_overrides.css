@@ -55,7 +55,7 @@ img.carousel-img  {
     display: block;
     height: 32px;
     /*width: 32px;*/
-    padding-left: 40px;
+    padding-left: 40px !important;
     /*text-indent: -9999px;*/
     background-position: 5px 0;
     background-repeat: no-repeat;
