@@ -6,3 +6,32 @@ img.carousel-img  {
   max-height: 700px;
   margin: auto;
 }
+
+
+.the-mcgintys-section .panel-title img { border-radius: 50%; }
+.the-children-section .panel-title img { border-radius: 50%; }
+
+.panel-group .panel + .panel {
+  margin-top: 0px;
+}
+
+
+.nav-tabs a {
+   background-color: #ddd;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+   
+    /*margin-top: -20px;*/
+}
+
+.tab-pane h3 {
+    margin-top: 0px;
+}
+
+.nav-tabs {
+    margin-bottom: 0;
+}

@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\flatly_bootstrap.min.css" />
     <Content Include="css\nanogallery\font\ngy2_icon_font.svg" />
     <Content Include="css\nanogallery\loading.gif" />
     <Content Include="css\nanogallery\nanogallery2.min.css" />
@@ -78,6 +79,7 @@
     <Content Include="Scripts\theblairs.js" />
     <Content Include="Scripts\timeline\main.js" />
     <Content Include="Scripts\timeline\modernizr.js" />
+    <Content Include="test.html" />
     <Content Include="TheBlairs.html" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />

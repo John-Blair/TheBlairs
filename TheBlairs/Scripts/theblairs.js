@@ -8,6 +8,10 @@ $(function () {
     })
 
 
+    $('.collapse').on('shown.bs.collapse', function (e) {
+        var target = $(e.target).attr("data-gallery") // activated tab
+        $(target).nanogallery2('refresh');
+    })
 
 
 });

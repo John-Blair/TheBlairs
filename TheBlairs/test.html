@@ -1,0 +1,495 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The Blairs family">
+    <meta name="author" content="John Blair">
+
+    <title>The Blairs</title>
+    <script src="Scripts/jquery-3.1.1.min.js"></script>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+
+    <link href="css/bootstrap_overrides.css" rel="stylesheet" />
+
+   
+    <link href="css/scrollingnav/scrolling-nav.css" rel="stylesheet" />
+    <link href="css/timeline/style.css" rel="stylesheet" />
+
+    <link href="css/nanogallery/nanogallery2.min.css" rel="stylesheet" />
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Home</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#our-history">Our History</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#the-children">The Grand Children</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#the-mcgintys">The McGintys</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#family-album">Family Album</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="container">
+                    <!-- Carousel
+    ================================================== -->
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                            <li data-target="#myCarousel" data-slide-to="4"></li>
+                            <li data-target="#myCarousel" data-slide-to="5"></li>
+                            <li data-target="#myCarousel" data-slide-to="6"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img class="carousel-img first-slide" src="/media/family/1978family.jpg" alt="First slide">
+                                <div class="container">
+                                    <div class="carousel-caption">
+                                        <h1>The Blair Family</h1>
+                                        <p>@1978</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img class=" carousel-img second-slide" src="/media/family/mum/2009a_mum.jpg" alt="Second slide">
+                                <div class="container">
+                                    <div class="carousel-caption">
+                                        <h1>Mum</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img class="carousel-img third-slide" src="/media/family/annie/2016annie.png" alt="Third slide">
+                                <div class="container">
+                                    <div class="carousel-caption">
+                                        <h1>Annie</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <img class="carousel-img fourth-slide" src="/media/family/john/2012john.JPG" alt="Fourth slide">
+                                <div class="container">
+                                    <div class="carousel-caption">
+                                        <h1>John</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <img class="carousel-img fifth-slide" src="/media/family/cath/2009b_cath.JPG" alt="Fifth slide">
+                                <div class="container">
+                                    <div class="carousel-caption">
+                                        <h1>Cath and Stevie</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <img class="carousel-img sixth-slide" src="/media/family/chris/2017a_chrissy.jpg" alt="Sixth slide">
+                                <div class="container">
+                                    <div class="carousel-caption">
+                                        <h1>Chrissy</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <img class="carousel-img seventh-slide" src="/media/family/weebuck/2010a_wb.JPG" alt="Seventh slide">
+                                <div class="container">
+                                    <div class="carousel-caption">
+                                        <h1>Wee Buck</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div><!-- /.carousel -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="our-history" class="our-history-section">
+        <div class="container">
+            <section id="cd-timeline" class="cd-container">
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-picture">
+                        <img src="media/family/mum/mum36x36.png"  alt="Picture">
+                    </div> <!-- cd-timeline-img -->
+                    <div class="cd-timeline-content">
+                        <h2>Mum</h2>
+                        <p>Born in Donegal, Ireland. Moved to Glasgow for work with many of her siblings. Now splits her time between Glasgow and Donegal.</p>
+                        <span class="cd-date">Oct 1939</span>
+                    </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
+               
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-location">
+                        <img src="media/family/annie/annie36x36.png" alt="Picture">
+                    </div> <!-- cd-timeline-img -->
+                    <div class="cd-timeline-content">
+                        <h2>Annie</h2>
+                        <p>Born in Govan, Glasgow. Mum to Claire.</p>
+                        <span class="cd-date">Dec 1963</span>
+                    </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-movie">
+                        <img src="media/family/john/john36x36.png" alt="Picture">
+
+                    </div> <!-- cd-timeline-img -->
+                    <div class="cd-timeline-content">
+                        <h2>John</h2>
+                        <p>Born in Govan, Glasgow. Dad to Zac. </p>
+                        <span class="cd-date">Dec 1964</span>
+                    </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-picture">
+                        <img src="media/family/cath/cath36x36.png" alt="Picture">
+                    </div> <!-- cd-timeline-img -->
+                    <div class="cd-timeline-content">
+                        <h2>Cath</h2>
+                        <p>Born in Govan, Glasgow. Maried to Stevie and Mum to Declan and Cara.</p>
+                        <span class="cd-date">Jan 1965</span>
+                    </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
+
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-location">
+                        <img src="media/family/cath/stevie36x36.png" alt="Picture">
+                    </div> <!-- cd-timeline-img -->
+                    <div class="cd-timeline-content">
+                        <h2>Stevie</h2>
+                        <p>Not to be confused with Chris Brown the Celtic captain.</p>
+                        <span class="cd-date">See Cath</span>
+                    </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
+
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-movie">
+                        <img src="media/family/chris/chrissy36x36.png" alt="Picture">
+                    </div> <!-- cd-timeline-img -->
+                    <div class="cd-timeline-content">
+                        <h2>Chrissy</h2>
+                        <p>Born in Govan, Glasgow. Mum to Evan.</p>
+                        <span class="cd-date">Jan 1967</span>
+                    </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img  cd-picture">
+                        <img src="media/family/weebuck/weebuck36x36.png" alt="Picture">
+                    </div> <!-- cd-timeline-img -->
+                    <div class="cd-timeline-content">
+                        <h2>Weebuck</h2>
+                        <p>Born in Govan, Glasgow.</p>
+                        <span class="cd-date">Feb 1969</span>
+                    </div> <!-- cd-timeline-content -->
+                </div> <!-- cd-timeline-block -->
+            </section> <!-- cd-timeline -->
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="the-children" class="the-children-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>The Grandchildren</h1>
+                </div>
+            </div>
+
+            <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#zac-child" data-gallery="#nanogallery-zac-child">Zac</a></li>
+                <li><a data-toggle="tab" href="#claire-child" data-gallery="#nanogallery-claire-child">Claire</a></li>
+                <li><a data-toggle="tab" href="#declan-child" data-gallery="#nanogallery-declan-child">Declan</a></li>
+                <li><a data-toggle="tab" href="#cara-child" data-gallery="#nanogallery-cara-child">Cara</a></li>
+                <li><a data-toggle="tab" href="#evan-child" data-gallery="#nanogallery-evan-child">Evan</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div id="zac-child" class="tab-pane  active">
+                    <h3>Zac</h3>
+                    <div id="nanogallery-zac-child" data-nanogallery2>
+                        <a href="/media/children/zac/1995zac.jpg" data-ngThumb="/media/children/zac/1995zac.jpg" data-ngdesc="">1995</a>
+                        <a href="/media/children/zac/1996_zac.jpg" data-ngThumb="/media/children/zac/1996_zac.jpg" data-ngdesc="">1996</a>
+                        <a href="/media/children/zac/1997zac.jpg" data-ngThumb="/media/children/zac/1997zac.jpg" data-ngdesc="">1997</a>
+                        <a href="/media/children/zac/1998zac.jpg" data-ngThumb="/media/children/zac/1998zac.jpg" data-ngdesc="">1998</a>
+                        
+                        <a href="/media/children/zac/2004a_zac.JPG" data-ngThumb="/media/children/zac/2004a_zac.JPG" data-ngdesc="">2004</a>
+                        <a href="/media/children/zac/2004b_zac.JPG" data-ngThumb="/media/children/zac/2004b_zac.JPG" data-ngdesc="">2004</a>
+                        <a href="/media/children/zac/2004zac.JPG" data-ngThumb="/media/children/zac/2004zac.JPG" data-ngdesc="">2004</a>
+                        <a href="/media/children/zac/2007zac.JPG" data-ngThumb="/media/children/zac/2007zac.JPG" data-ngdesc="">2007</a>
+                        <a href="/media/children/zac/2000a_zac.JPG" data-ngThumb="/media/children/zac/2007a_zac.JPG" data-ngdesc="">2007</a>
+                        <a href="/media/children/zac/2000b_zac.JPG" data-ngThumb="/media/children/zac/2007b_zac.JPG" data-ngdesc="Camping fun!">2007</a>
+                        <a href="/media/children/zac/2000c_zac.JPG" data-ngThumb="/media/children/zac/2007c_zac.JPG" data-ngdesc="">2007</a>
+
+                        <a href="/media/children/zac/2008a_zac.JPG" data-ngThumb="/media/children/zac/2008a_zac.JPG" data-ngdesc="">2008, Cyprus</a>
+                        <a href="/media/children/zac/2008b_zac.JPG" data-ngThumb="/media/children/zac/2008b_zac.JPG" data-ngdesc="">2008</a>
+                        <a href="/media/children/zac/2008c_zac.jpg" data-ngThumb="/media/children/zac/2008c_zac.jpg" data-ngdesc="">2008</a>
+                        <a href="/media/children/zac/2008d_zac.JPG" data-ngThumb="/media/children/zac/2008d_zac.JPG" data-ngdesc="">2008</a>
+                        <a href="/media/children/zac/2009a_zac.JPG" data-ngThumb="/media/children/zac/2009a_zac.JPG" data-ngdesc="">2009</a>
+                        <a href="/media/children/zac/2009zac.jpg" data-ngThumb="/media/children/zac/2009zac.jpg" data-ngdesc="">2009</a>
+                        <a href="/media/children/zac/2010a_zac.jpg" data-ngThumb="/media/children/zac/2010a_zac.jpg" data-ngdesc="">2010</a>
+                        <a href="/media/children/zac/2010c.jpg" data-ngThumb="/media/children/zac/2010c.jpg" data-ngdesc="">2010</a>
+                        <a href="/media/children/zac/2010e_zac.png" data-ngThumb="/media/children/zac/2010e_zac.png" data-ngdesc="">2010, Scotland</a>
+                        <a href="/media/children/zac/2010zac.jpg" data-ngThumb="/media/children/zac/2010zac.jpg" data-ngdesc="">2010</a>
+                        <a href="/media/children/zac/2011b_zac.JPG" data-ngThumb="/media/children/zac/2011b_zac.JPG" data-ngdesc="">2011</a>
+                        <a href="/media/children/zac/2011zac.jpg" data-ngThumb="/media/children/zac/2011zac.jpg" data-ngdesc="">2011</a>
+                        <a href="/media/children/zac/2012c_zac.jpg" data-ngThumb="/media/children/zac/2012c_zac.jpg" data-ngdesc="">2012</a>
+                        <a href="/media/children/zac/2012d__zac.JPG" data-ngThumb="/media/children/zac/2012d__zac.JPG" data-ngdesc="">2012</a>
+                        <a href="/media/children/zac/2012e_zac.JPG" data-ngThumb="/media/children/zac/2012e_zac.JPG" data-ngdesc="">2012</a>
+                        <a href="/media/children/zac/2013a_zac.jpg" data-ngThumb="/media/children/zac/2013a_zac.jpg" data-ngdesc="">2013</a>
+                        <a href="/media/children/zac/2013b_zac.jpg" data-ngThumb="/media/children/zac/2013b_zac.jpg" data-ngdesc="">2013</a>
+                        <a href="/media/children/zac/2013c_zac.jpg" data-ngThumb="/media/children/zac/2013c_zac.jpg" data-ngdesc="">2013</a>
+                        <a href="/media/children/zac/2013zac.jpg" data-ngThumb="/media/children/zac/2013zac.jpg" data-ngdesc="">2013</a>
+                        <a href="/media/children/zac/2014b_zac.JPG" data-ngThumb="/media/children/zac/2014b_zac.JPG" data-ngdesc="">2014</a>
+                        <a href="/media/children/zac/2015a_zac.jpg" data-ngThumb="/media/children/zac/2015a_zac.jpg" data-ngdesc="">2015</a>
+                        <a href="/media/children/zac/2015d_zac.png" data-ngThumb="/media/children/zac/2015d_zac.png" data-ngdesc="">2015</a>
+                        <a href="/media/children/zac/2015e_zac.jpg" data-ngThumb="/media/children/zac/2015e_zac.jpg" data-ngdesc="">2015, Dartmoor Zoo</a>
+                        <a href="/media/children/zac/2016deb.jpg" data-ngThumb="/media/children/zac/2016deb.jpg" data-ngdesc="With Zac's mum Deb">2016</a>
+                        <a href="/media/children/zac/2016zac.jpg" data-ngThumb="/media/children/zac/2016zac.jpg" data-ngdesc="">2016</a>
+                        <a href="/media/children/zac/2017zac.jpg" data-ngThumb="/media/children/zac/2017zac.jpg" data-ngdesc="">2017</a>
+
+                    </div>
+                </div>
+                <div id="claire-child" class="tab-pane " >
+                    <h3>Claire</h3>
+                    <div id="nanogallery-claire-child" data-nanogallery2>
+                        <a href="/media/children/claire/2004claire.JPG" data-ngThumb="/media/children/claire/2004claire.JPG" data-ngdesc="">2004</a>
+                        <a href="/media/children/claire/2009claire.jpg" data-ngThumb="/media/children/claire/2009claire.jpg" data-ngdesc="">2009</a>
+                        <a href="/media/children/claire/2011alan.jpg" data-ngThumb="/media/children/claire/2011alan.jpg" data-ngdesc="Claire's Dad Alan - on the left'">2011</a>
+                    </div>
+                </div>
+
+                <div id="declan-child" class="tab-pane ">
+                    <h3>Declan</h3>
+                    <div id="nanogallery-declan-child" data-nanogallery2>
+                        <a href="/media/children/declan/2004declan.JPG" data-ngThumb="/media/children/declan/2004declan.JPG" data-ngdesc="">2004</a>
+                        <a href="/media/children/declan/2010declan.JPG" data-ngThumb="/media/children/declan/2010declan.JPG" data-ngdesc="">2010</a>
+                        <a href="/media/children/declan/2012b_declan.jpg" data-ngThumb="/media/children/declan/2012b_declan.jpg" data-ngdesc="">2012</a>
+                        <a href="/media/children/declan/2012declan.JPG" data-ngThumb="/media/children/declan/2012declan.JPG" data-ngdesc="">2012</a>
+                        <a href="/media/children/declan/2016declan.jpg" data-ngThumb="/media/children/declan/2016declan.jpg" data-ngdesc="">2016</a>
+
+                    </div>
+                </div>
+                <div id="cara-child" class="tab-pane ">
+                    <h3>Cara</h3>
+                    <div id="nanogallery-cara-child" data-nanogallery2>
+                        <a href="/media/children/cara/2012cara.JPG" data-ngThumb="/media/children/cara/2012cara.JPG" data-ngdesc="">2012</a>
+
+                    </div>
+
+                </div>
+                <div id="evan-child" class="tab-pane ">
+                    <h3>Evan</h3>
+                    <div id="nanogallery-evan-child" data-nanogallery2>
+                        <a href="/media/children/evan/2008evan.JPG" data-ngThumb="/media/children/evan/2008evan.JPG" data-ngdesc="">2008</a>
+                        <a href="/media/children/evan/2016a_evan.jpg" data-ngThumb="/media/children/evan/2016a_evan.jpg" data-ngdesc="">2016</a>
+                        <a href="/media/children/evan/2016evan.jpg" data-ngThumb="/media/children/evan/2016evan.jpg" data-ngdesc="">2016</a>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+           
+    </section>
+    <section id="the-mcgintys" class="the-mcgintys-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>The McGintys</h1>
+                </div>
+            </div>
+
+
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                Mum
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            mum
+                            </div>
+                        </div>
+                    </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                Barney
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            barney
+                        </div>
+                    </div>
+                </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                   ohn
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                               john
+                            </div>
+                        </div>
+                    </div>
+                  
+
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="family-album" class="family-album-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Family Album</h1>
+                    <p>Photos from @2000 to the present</p>
+                </div>
+            </div>
+            <div id="nanogallery2" data-nanogallery2>
+                <a href="/media/gallery/2003zac_mum.JPG" data-ngThumb="/media/gallery/2003zac_mum.JPG" data-ngdesc="Zac just won at dominoes">2003 Bishops Stortford</a>
+                <a href="/media/gallery/2004a_family.JPG" data-ngThumb="/media/gallery/2004a_family.JPG" data-ngdesc="Loving Cath's pirate look">2004 Birch Hill Donegal</a>
+                <a href="/media/gallery/2004brogans.JPG" data-ngThumb="/media/gallery/2004brogans.JPG" data-ngdesc="With the Brogans">2004 Birch Hill Donegal</a>
+                <a href="/media/gallery/2004b_family.JPG" data-ngThumb="/media/gallery/2004b_family.JPG" data-ngdesc="">2004 Birch Hill Donegal</a>
+                <a href="/media/gallery/2004c_family.JPG" data-ngThumb="/media/gallery/2004c_family.JPG" data-ngdesc="Spot of the family photo when we were kids">2004 Birch Hill Donegal</a>
+                <a href="/media/gallery/2004declan_zac.JPG" data-ngThumb="/media/gallery/2004declan_zac.JPG" data-ngdesc="">2004 Birch Hill Donegal</a>
+                <a href="/media/gallery/2004family.JPG" data-ngThumb="/media/gallery/2004family.JPG" data-ngdesc="">2004 Birch Hill Donegal</a>
+                <a href="/media/gallery/2004ireland.JPG" data-ngThumb="/media/gallery/2004ireland.JPG" data-ngdesc="">2004 Birch Hill Donegal</a>
+                <a href="/media/gallery/2004john_annie.JPG" data-ngThumb="/media/gallery/2004john_annie.JPG" data-ngdesc="">2004 Birch Hill Donegal</a>
+                <a href="/media/gallery/2004john_annie_claire.jpg" data-ngThumb="/media/gallery/2004john_annie_claire.jpg" data-ngdesc="I recall the haystack being much taller than that!">2004 Birch Hill Donegal</a>
+                <a href="/media/gallery/2004john_willie.JPG" data-ngThumb="/media/gallery/2004john_willie.JPG" data-ngdesc="Just finished turning the hay">2004 Birch Hill Donegal</a>
+                <a href="/media/gallery/2004john_zac.JPG" data-ngThumb="/media/gallery/2004john_zac.JPG" data-ngdesc="In the front garden of Birch Hill">2004 Birch Hill Donegal</a>
+                <a href="/media/gallery/2004_john_michael.JPG" data-ngThumb="/media/gallery/2004_john_michael.JPG" data-ngdesc="I think we both had at least one shandy">2004 Dunboyne, Ireland</a>
+                <a href="/media/gallery/2007zac_callum.JPG" data-ngThumb="/media/gallery/2007zac_callum.JPG" data-ngdesc="Trial run of the new tent with Zac's friend Callum">2007 Zac + Callum</a>
+                <a href="/media/gallery/2008john_wb.JPG" data-ngThumb="/media/gallery/2008john_wb.JPG" data-ngdesc="">2008 Talbot, Scotland</a>
+                <a href="/media/gallery/2008scotland.JPG" data-ngThumb="/media/gallery/2008scotland.JPG" data-ngdesc="">2008, Glasgow</a>
+                <a href="/media/gallery/2009family.JPG" data-ngThumb="/media/gallery/2009family.JPG" data-ngdesc="">2009, Govan</a>
+                <a href="/media/gallery/2009john_zac.jpg" data-ngThumb="/media/gallery/2009john_zac.jpg" data-ngdesc="">2009, Govan</a>
+                <a href="/media/gallery/2009muum_zac.jpg" data-ngThumb="/media/gallery/2009muum_zac.jpg" data-ngdesc="">2009, Govan</a>
+                <a href="/media/gallery/2010familymeal.JPG" data-ngThumb="/media/gallery/2010familymeal.JPG" data-ngdesc="Family meal with Peggy, Brian, and Bridie">2010, Glasgow</a>
+                <a href="/media/gallery/2010john_mum.JPG" data-ngThumb="/media/gallery/2010john_mum.JPG" data-ngdesc="">2010, Duck Bay</a>
+                <a href="/media/gallery/2010john_wb.JPG" data-ngThumb="/media/gallery/2010john_wb.JPG" data-ngdesc="">2010, Edinburgh</a>
+                <a href="/media/gallery/2011john_zac.jpg" data-ngThumb="/media/gallery/2011john_zac.jpg" data-ngdesc="">2011, Glasgow</a>
+                <a href="/media/gallery/2011mum_john_zac.jpg" data-ngThumb="/media/gallery/2011mum_john_zac.jpg" data-ngdesc="">2011, Glasgow</a>
+                <a href="/media/gallery/2011mum_wb_zac.jpg" data-ngThumb="/media/gallery/2011mum_wb_zac.jpg" data-ngdesc="">2011, Glasgow</a>
+                <a href="/media/gallery/2012a_bikes.JPG" data-ngThumb="/media/gallery/2012a_bikes.JPG" data-ngdesc="">2012, Millport</a>
+                <a href="/media/gallery/2012declan_zac.jpg" data-ngThumb="/media/gallery/2012declan_zac.jpg" data-ngdesc="">2012, Millport</a>
+                <a href="/media/gallery/2012family.JPG" data-ngThumb="/media/gallery/2012family.JPG" data-ngdesc="">2012, travelling to Millport</a>
+                <a href="/media/gallery/2013john_wb.jpg" data-ngThumb="/media/gallery/2013john_wb.jpg" data-ngdesc="">2013, Glasgow</a>
+                <a href="/media/gallery/2013john_zac.jpg" data-ngThumb="/media/gallery/2013john_zac.jpg" data-ngdesc="Zac on an adventure day">2013, Brighton</a>
+                <a href="/media/gallery/2015_family.jpg" data-ngThumb="/media/gallery/2015_family.jpg" data-ngdesc="With Cara">2015, Govan</a>
+            </div>
+
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Contact Section</h1>
+                </div>
+            </div>
+
+
+
+            <div class="container">
+                <div class="row">
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+    </section>
+
+    <!-- jQuery -->
+    <!-- Bootstrap Core JavaScript -->
+    <script src="Scripts/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="Scripts/scrollingnav/jquery.easing.min.js"></script>
+    <script src="Scripts/scrollingnav/scrolling-nav.js"></script>
+    <script src="Scripts/timeline/modernizr.js"></script>
+    <script src="Scripts/timeline/main.js"></script>
+    <script src="Scripts/nanogallery/jquery.nanogallery2.js"></script>
+    <script src="Scripts/theblairs.js"></script>
+</body>
+
+</html>

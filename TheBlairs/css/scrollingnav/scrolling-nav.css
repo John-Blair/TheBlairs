@@ -36,6 +36,16 @@ of those sections to manage the look and feel of the site. */
     padding-top: 91px;
     text-align: center;
     background: #fff;
+
+   background: url(/media/family/017495_71558e80.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#myCarousel{
+    background: #eee;
 }
 
 .our-history-section {
@@ -43,13 +53,40 @@ of those sections to manage the look and feel of the site. */
     padding-top: 91px;
     text-align: center;
     background: #eee;
+
+     background: url(/media/timeline/TGSE01254.jpg) no-repeat center center; 
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+     background-size: cover;
+
+
 }
 
 .the-children-section {
     min-height: 100%;
     padding-top: 91px;
+    /*text-align: center;*/
+    background: #fff;
+
+     background: url(/media/family/elder_park.jpg)  no-repeat center center; 
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+     background-size: cover;
+}
+
+.the-grandchildren-section {
+    min-height: 100%;
+    padding-top: 91px;
     text-align: center;
     background: #fff;
+
+     background: url(/media/family/sea-beach-sand-sun.jpg) no-repeat center center; 
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+     background-size: cover;
 }
 
 .the-mcgintys-section {
@@ -57,6 +94,13 @@ of those sections to manage the look and feel of the site. */
     padding-top: 91px;
     text-align: center;
     background: #eee;
+
+    background: url(/media/family/2004IrelandBirchHill.JPG) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
 
 .family-album-section {
@@ -64,6 +108,13 @@ of those sections to manage the look and feel of the site. */
     padding-top: 91px;
     text-align: center;
     background: #fff;
+
+     background: url(/media/family/sea.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
 
 
