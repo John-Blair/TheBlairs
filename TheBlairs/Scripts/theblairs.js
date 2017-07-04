@@ -14,6 +14,40 @@ $(function () {
     })
 
 
+    $('.cd-read-more').on('click', function (e) {
+
+
+
+        var menu = $(this).attr("menu-target");
+       // alert('menu is:' + menu);
+        var menu$ = $(menu);
+        var target = $(this).attr("data-target");
+       // alert('target is:' + target);
+        var target$ = $(target);
+
+
+       // alert('menu being clicked');
+        /*
+        menu$.click(function () {
+            alert('menu clicked');
+            $('#child-annie').click();
+
+            $('#child-annie').click();
+            //return false;
+        });*/
+        menu$.click();
+        var targetHref = target$.attr("href");
+        //alert('href:' + targetHref);
+
+        var targetHref$= $(targetHref)
+        if (!$(targetHref$).is(":visible")) {
+            target$.click();
+        }
+
+        return false;
+    })
+
+
 });
 
 
