@@ -80,6 +80,7 @@
     <Content Include="Scripts\timeline\main.js" />
     <Content Include="Scripts\timeline\modernizr.js" />
     <Content Include="test.html" />
+    <Content Include="default.html" />
     <Content Include="TheBlairs.html" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
